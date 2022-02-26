@@ -1,0 +1,327 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    font-family: sans-serif;
+    }
+    #container{
+        width: 80%;
+        margin: auto;
+        border: 1px solid rgb(207, 207, 207);
+    }
+    
+    #searchbar{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 76% 22%;
+        grid-gap: 10px;
+    }
+    #searchbar>div{
+        margin: 20px;
+    }
+    #searchbar>div>input{
+        background-color: #f7f8f5;
+        border: 0px;
+        width: 100%;
+        padding: 13px;
+        border-radius: 8px;
+        color:rgb(2,71,91);
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #myOrder{
+        border-radius: 8px;
+        background-color: #f7f8f5;
+        display: flex;
+        padding-top: 12px;
+        justify-content: space-around;
+        color:rgb(2,71,91);
+        font-weight: 5500;
+    }
+    #myOrder:hover{
+        cursor: pointer;
+    }
+    #slider{
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 69% 29%;
+        grid-gap: 20px;
+    }
+   
+    #slider>div>img{
+        width: 100%;
+        height: 180px;
+    }
+    #uploading{
+        line-height: 40px;
+        padding: 30px;
+        height: 67%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    }
+    #uploading>div>span{
+        font-weight: 700;
+        font-size: 18px;
+        color:rgb(2,71,91);
+    }
+    #rx{
+        margin-right: 8px;
+    }
+    #uploading>div>button{
+        margin: 10px;
+        padding: 15px 60px;
+        font-size: 13px;
+        font-weight: 700;
+        background-color: #fcb716;
+        color: white;
+        border-radius: 8px;
+        border: 0px;
+    }
+    #cat{
+        margin: 20px;
+        display: flex;
+        justify-content:space-between;
+        padding: 10px 22px;
+    }
+    #catagories{
+        color:rgb(2,71,91);
+        font-size: 16px;
+        font-weight: 600;
+    }
+    #viewAll{
+        font-size: 13px;
+        font-weight: 700;
+        color: #fcb716;
+    }
+    #popular{
+        width: 96%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-gap: 20px;
+
+    }
+    #popular>div{
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    #popular>div>img{
+        width: 70px;
+        background-color: aliceblue;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 20px;
+    }
+    #popular>div>p{
+        font-size: 14px;
+        font-weight: 500;
+        color:rgb(2,71,91);
+        margin: 10px;
+    }
+    #checkupPackages{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+        width: 95%;
+        margin:auto;
+        margin-bottom: 30px;
+    }
+    .bottom>span>img{
+        width: 35px;
+    }
+    #checkupPackages>div{
+        padding:20px 10px;
+        border-radius: 20px;
+        letter-spacing: 1px;
+        line-height: 22px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .top{
+        padding: 5px;
+        
+    }
+    .top>h4{
+        font-size: 20px;
+    }
+    .bottom{
+        padding: 5px;
+    }
+    #more{
+        display: flex;
+        justify-content: space-between;
+    }
+    #more>div>h5{
+        font-size: 16px;
+        color: #fcb716;
+    }
+    #home{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+    #home>div{
+        margin: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color:rgb(2,71,91);
+    }
+    #home>div>img{
+        width: 20px;
+    }
+    #home>div>span>img{
+        width: 20px;
+    }
+    #bookedTest{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-gap: 10px;
+        margin-bottom: 20px;
+    }
+    #upper>img{
+        width: 30px;
+        border-radius: 50%;
+    }
+    #bookedTest>div{
+        padding: 10px;
+        border-radius: 15px;
+        line-height: 22px;
+        color:rgb(2,71,91);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    #upper>p{
+        font-size: 12px;
+    }
+    #upper{
+        padding-bottom: 10px;
+    }
+    #lover{
+        margin-top: 10px;
+        line-height: 30px;
+    }
+    #lover>span>img{
+        width: 25px;
+    }
+    #lover>h3{
+        font-size: 16px;
+    }
+    #lover>h4{
+        font-size: 17px;
+        color: #fcb716;
+    }
+    #why{
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+        color:rgb(102,144,156);
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    #rating{
+        color:rgb(2,71,91);
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 10px;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        margin-bottom: 30px;
+    }
+    #rating>div{
+        text-align: center;
+        padding: 20px;
+        line-height: 25px;
+    }
+    #vitalAndWomen{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #vitalAndWomen>div{
+        display: flex;
+        flex-direction: column;
+    }
+    #des{
+        padding:10px 15px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #organs{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    #organs>div,#organs2>div{
+        text-align: center;
+        color:rgb(2,71,91);
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+        border: 1px solid grey;
+        border-radius: 10px;
+
+
+    }
+    #organs>div>img,#organs2>div>img{
+        margin:20px 10px;
+        width: 50px;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: rgb(211, 211, 211);
+    }
+    #organs2{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        /* grid-template-rows: auto; */
+        /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+    }
+    #organimg{
+        width:90%;
+        margin: auto;
+        
+    }
+    #organimg>img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    #discription{
+        width: 98%;
+        margin: auto;
+        padding: 10px;
+        line-height: 20px;
+        color:rgb(2,71,91);
+        padding-bottom: 30px;
+    }
+    #benifits{    
+        margin-top: 10px;    
+    }
+    #discription>div>h4{
+        font-size: 14px;
+        font-weight: 700;
+        margin: 10px 0px;
+    }
+    #discription>div>p{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    #ul1{
+        margin:20px 40px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
